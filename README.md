@@ -1,3 +1,5 @@
+# Case Study 1: Real-Time Stock Market Dashboard
+
 1) How would you implement a WebSocket connection in a React component for realtime data fetching?
    
 Ans) WebSocket connection in React: Implement the `useEffect` hook to establish a WebSocket connection. Define event handlers like `onmessage` to receive data, `onerror` for error handling, and `onclose` for closing the connection. Clean up the connection using `socket.close()` in the cleanup function.
